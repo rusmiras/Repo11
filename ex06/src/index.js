@@ -1,7 +1,7 @@
 // Only change code below this line
 var myNestedArray = [["KitKat", 5]];
 function myNestedFunction(arr) {
-    myNestedArray = arr;
+    var myNestedArray = arr;
     return myNestedArray;
   }
 // Only change code above this line
