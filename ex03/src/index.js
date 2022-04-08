@@ -4,11 +4,11 @@ var myPetsArray = ["Dog", "Cat"];
 // Create a function below this line
 function myArrayFunction(myPets) {
     myPets.push("Bird", "Fish");
-    var myNewPats = myPets;
-    var firstPet = myNewPats.shift();
-    var lastPet = myNewPats.pop();
+    var myNewPets = myPets;
+    var firstPet = myNewPets.shift();
+    var lastPet = myNewPets.pop();
     myPets.unshift("Lion");
-    return myNewPats;
+    return myNewPets;
 }
 // End of creating a function
 console.log(myArrayFunction(myPetsArray));
